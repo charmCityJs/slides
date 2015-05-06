@@ -258,3 +258,15 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #00008B; }
+
+
+/*********************************************
+ * CUSTOM STYLES
+ *********************************************/
+.speakers li {
+  margin-bottom: 1em;
+}
+.speakers .twitter-name {
+  font-size: 65%;
+  color: rgba(0,0,0,0.7);
+}
