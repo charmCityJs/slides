@@ -264,7 +264,7 @@ body {
  * CUSTOM STYLES
  *********************************************/
 .speakers li {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 .speakers .twitter-name {
   font-size: 65%;
