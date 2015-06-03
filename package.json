@@ -7,7 +7,7 @@
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
-    "start": ""
+    "start": "./node_modules/.bin/http-server"
   },
   "author": {
     "name": "Hakim El Hattab",
@@ -25,7 +25,8 @@
     "underscore": "~1.5.1",
     "express": "~2.5.9",
     "mustache": "~0.7.2",
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "http-server": "^0.8.0"
   },
   "devDependencies": {
     "grunt-contrib-qunit": "~0.5.2",
