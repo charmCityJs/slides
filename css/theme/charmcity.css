@@ -277,6 +277,11 @@ body {
   color: rgba(0,0,0,0.7);
 }
 
+.poem p {
+  line-height: 80%;
+  font-size: 80%;
+}
+
 
 .monospace {
   font-family: 'Roboto Mono', Monaco, monospace !important;
