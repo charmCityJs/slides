@@ -252,7 +252,7 @@
 					💃 Relax!
 				</h4>
 				<br />
-				<div class="timer" style="font-size:2em;font-family:monospace;font-weight:bold;line-height:20px;">15:00</div>
+				<div class="timer" style="font-size:2em;font-family:monospace;font-weight:bold;line-height:20px;">10:00</div>
 				<br />
 				<h6>Join Slack: <a href="http://charmcityjs.herokuapp.com">charmcityjs.herokuapp.com</a></h6>
 				<h6>Submit Talk: <a href="https://github.com/charmcityjs/talks">github.com/charmcityjs/talks</a></h6>
@@ -320,7 +320,7 @@
 				if (document.body.parentElement.classList.contains("in-intermission")) {
 					if (!started) started = Date.now();
 
-					const duration = 900000; // 10 minutes
+					const duration = 600000; // 10 minutes
 					const remaining = duration - (Date.now() - started);
 					let mm = (remaining / 60000) | 0;
 					let ss = ((remaining - (mm * 60000)) / 1000) | 0;
@@ -329,7 +329,7 @@
 
 					e.textContent = t;
 				} else {
-					e.textContent = "15:00";
+					e.textContent = "10:00";
 					started = null;
 				}
 			}, 1000)
